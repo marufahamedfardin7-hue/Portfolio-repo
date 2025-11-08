@@ -139,5 +139,48 @@ main section{
 
 
 
+.resume-container{
+    display: flex;
+    gap:24px;
+}
 
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
 
+.experience-description, .experience-sub-title{
+    color: #757575;
+}
+
+.resume hr{
+    margin: 30px;
+}
+
+.text-center{
+    text-align: center;
+    margin-top: 20px;
+}
+.center{
+    text-align: center;
+}
+footer{display: flex;
+    gap:100px;
+background-color: #FFF8F3;
+margin-top: 100px;
+padding: 130px 200px;
+}
+
+.footer-colum{
+width: 50%;
+}
+.connect input[type="text"],.connect input[type="Email"] ,textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border: 0;
+    border-radius: 5px;
+    width: 100%;
+}
